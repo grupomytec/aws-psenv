@@ -32,7 +32,7 @@ Você precisará ter instalado as seguintes aplicações:
 
 <img src="./docs/parameter_store.jpeg" width="600" />
 
-2. Configure sua role ou suas credencias de acesso programático para ter permissões ao Parameter Store e execute como no comando abaixo:
+2. Configure sua role ou suas credenciais de acesso programático para ter permissões ao Parameter Store e execute como no comando abaixo:
 
 ```
 ./aws-psenv /homolog/
