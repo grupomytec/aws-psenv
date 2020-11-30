@@ -11,6 +11,13 @@ curl https://raw.githubusercontent.com/grupomytec/aws-psenv/main/aws-psenv.sh > 
 chmod +x ./aws-psenv
 ```
 
+## Requisitos
+
+Você precisará ter instalado as seguintes aplicações:
+
+- [AWS CLI](https://aws.amazon.com/pt/cli/)
+- [jq](https://stedolan.github.io/jq/)
+
 ## Como usar?
 
 ### Sintaxe
