@@ -1,7 +1,7 @@
 # aws-psenv
 
 > Um script para obter variáveis da AWS SSM Parameter Store por path com saída em formato JSON compatível com a sintaxe de variáveis de ambiente das tasks definitions da Amazon ECS.
- 
+
 ## Instalação
 
 Há vários modos de instalá-lo; experimente os comandos abaixo:
@@ -23,8 +23,12 @@ Você precisará ter instalado as seguintes aplicações:
 ### Sintaxe
 
 ```bash
-./aws-psenv <ssm_path>
+./aws-psenv [options] <ssm_path>
 ```
+
+Opções:
+
+- `--value-from` - Obter o ARN para usar com `valueFrom`.
 
 ## Passo a passo
 
