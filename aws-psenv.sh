@@ -13,7 +13,7 @@ which jq > /dev/null \
   || (echo "[error] 'jq' is not installed." && exit 1)
 
 aws ssm get-parameters-by-path --with-decryption --path $ssm_path |
-  jq --raw-output '
+  jq --raw-output -M '
     [(
       .Parameters[]
         | del(.Type, .Version, .LastModifiedDate, .ARN, .DataType)
